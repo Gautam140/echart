@@ -137,7 +137,7 @@ const ChartSwitcher: React.FC = () => {
       chartInstance.current?.dispose();
       chartInstance.current = null;
     };
-  }, [selectedChart]);
+  }, [selectedChart,chartOptions]);
 
   return (
     <div className="p-4 mt-10">
